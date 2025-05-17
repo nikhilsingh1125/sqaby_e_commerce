@@ -37,8 +37,6 @@ dependencies:
   cupertino_icons: ^1.0.8
   get:
   flutter_screenutil:
-  google_fonts:
-  flutter_svg:
   flutter_rating_bar:
   flutter_local_notifications:
   permission_handler:

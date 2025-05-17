@@ -1,16 +1,26 @@
-# sqaby_e_commerce
+# Sqaby E-Commerce App – UI Optimization Task
 
-A new Flutter project.
+## ✅ Task: Optimize Rendering & State Management in a Complex UI
 
-## Getting Started
+### 🧠 What Was Optimized
+- Converted static widgets to `const`
+- Minimized `Obx` usage to only relevant widgets
+- Avoided unnecessary rebuilds using `GetX` and `IndexedStack`
 
-This project is a starting point for a Flutter application.
+### 🏗️ Architecture & State Management
+- **State Management**: GetX
+- **Architecture**: Clean Architecture principles
+- **Responsiveness**: Flutter ScreenUtil
 
-A few resources to get you started if this is your first Flutter project:
+### 📦 Packages Used
+- get
+- flutter_screenutil
+- curved_navigation_bar
+- permission_handler
+- carousel_slider
+- flutter_local_notifications
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🛠️ How to Run
+```bash
+flutter pub get
+flutter run
